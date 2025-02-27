@@ -48,3 +48,26 @@ console.log(sum(4,4))
 */
 // const BigInt = 123456645324598347520n
 // console.log(typeof BigInt);
+
+
+// **************************************************
+
+//Stack(Primitive), Heap(Non-primitive)
+
+let myUserName = "a1234@google.com"
+let anotherUserName = myUserName
+
+anotherUserName = "as123989@google.com"
+// console.log(myUserName);
+// console.log(anotherUserName);
+
+
+let user = {
+    name: "hitesh",
+    upi: "hi@ybl",
+
+}
+let anotherUser = user
+anotherUser.name = "Aniket"
+console.log(user)
+console.log(anotherUser);
